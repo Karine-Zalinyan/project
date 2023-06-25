@@ -1,0 +1,46 @@
+.about {
+    display: flex;
+}
+
+.about:before,
+.about__desc {
+    border-radius: 4px;
+    margin-top: 140px;
+
+}
+
+.about:before {
+    content: "";
+    display: block;
+    width: 488px;
+    height: 502px;
+    background: url("../img/kaskad.jpeg") center center / cover no-repeat;
+}
+
+.about__desc {
+    background: rgb(87, 84, 84);
+    padding: 80px 98px;
+    max-width: 780px;
+    margin-left: -140px;
+    margin-top: 236px;
+    min-height: 400px;
+}
+
+.about__title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.about__desc-text {
+    margin-bottom: 25px;
+}
+
+.about__desc-text p {
+    margin-bottom: 20px;
+    margin-left: -30px;
+}
+
+.about__desc-text p:last-child {
+    margin-bottom: 0px;
+}

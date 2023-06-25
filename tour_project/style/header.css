@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+header {
+    padding-top: 8px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+    justify-content: flex-end;
+    margin-right: -71px;
+}
+
+.header-right {
+    margin-right: 0;
+}
+
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__item--active .menu__link {
+    color: rgb(228, 24, 24);
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: rgb(228, 24, 24);
+    transition: 0.5s;
+}

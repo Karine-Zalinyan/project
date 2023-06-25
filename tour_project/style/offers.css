@@ -1,0 +1,78 @@
+.section__title {
+    margin-left: 0px;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers__item {
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    width: calc(100% / 3 - 20px);
+    color: black;
+    vertical-align: top;
+    overflow: hidden;
+
+}
+
+.offers__header {
+    min-height: 160px;
+    position: relative;
+
+}
+
+.offers__header-img {
+    position: relative;
+    right: 2px;
+    width: 362px;
+    height: 144px;
+
+}
+
+.offers__content {
+    display: flex;
+    flex-direction: column;
+    padding: 39px 30px;
+    color: #02323d;
+
+
+}
+
+.offers__title {
+    font-weight: bold;
+    font-size: 24px;
+    min-height: 60px;
+
+}
+
+.offers__description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 14px;
+    min-height: 55px;
+}
+
+.offers__prices {
+    display: flex;
+    justify-content: left;
+}
+
+.offers__price {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.offers__btn-wrapper {
+    display: flex;
+    justify-content: left;
+    margin-top: auto;
+
+}

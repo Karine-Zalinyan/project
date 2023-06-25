@@ -1,0 +1,60 @@
+.pager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -25px;
+}
+
+.pager__display {
+    margin-right: 30px;
+}
+
+.pager__list {
+    display: flex;
+    align-items: center;
+}
+
+.pager__item {
+    text-align: center;
+}
+
+.pager__item-active .pager__link {
+    background: #45666e;
+
+}
+
+.pager__link:hover {
+    background: #45666e;
+    transition: 0.6s;
+}
+
+.pager__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+
+
+
+.pager-elem {
+    text-align: center;
+    color: black;
+}
+
+.service__pager--item--active .pager__link {
+    background: #f60101;
+    color: white;
+
+}
+
+.pager-link__service:hover {
+    background: #f60101;
+    color: white;
+    transition: 0.6s;
+}
